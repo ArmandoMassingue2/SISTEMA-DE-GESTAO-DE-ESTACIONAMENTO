@@ -1,7 +1,8 @@
+
 package main.java.com.jm_estacionamento.controller;
 
-import com.jm.estacionamento.model.Carro;
-import com.jm.estacionamento.service.CarroService;
+import com.jm_estacionamento.model.Carro;
+import com.jm_estacionamento.service.CarroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +12,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/carros")
 public class CarroController {
-
     @Autowired
     private CarroService carroService;
 

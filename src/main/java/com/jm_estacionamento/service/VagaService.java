@@ -1,7 +1,7 @@
 package com.estacionamento.service;
 
-import com.estacionamento.model.Vaga;
-import com.estacionamento.repository.VagaRepository;
+import com.jm_estacionamento.model.Vaga;
+import com.jm_estacionamento.repository.VagaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -9,7 +9,6 @@ import java.util.Optional;
 
 @Service
 public class VagaService {
-
     private final VagaRepository repository;
 
     public VagaService(VagaRepository repository) {

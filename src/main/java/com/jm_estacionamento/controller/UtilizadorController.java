@@ -1,4 +1,4 @@
-package com.jm_estacionamento.controller;
+package main.java.com.jm_estacionamento.controller;
 
 import com.jm_estacionamento.model.Utilizador;
 import com.jm_estacionamento.service.UtilizadorService;
