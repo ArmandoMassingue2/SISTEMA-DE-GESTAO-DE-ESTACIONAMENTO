@@ -1,4 +1,4 @@
-package com.estacionamento.repository;
+package com.jm_estacionamento.repository;
 
 import com.estacionamento.model.Vaga;
 import org.springframework.data.jpa.repository.JpaRepository;
