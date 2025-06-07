@@ -1,12 +1,11 @@
 package com.estacionamento.model;
 
-import jakarta.persistence.*;
-import lombok.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class Vaga {
 
     @Id
@@ -15,4 +14,12 @@ public class Vaga {
 
     private String numero;
     private Boolean ocupada = false;
+
+    // Getters e Setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+    public String getNumero() { return numero; }
+    public void setNumero(String numero) { this.numero = numero; }
+    public Boolean getOcupada() { return ocupada; }
+    public void setOcupada(Boolean ocupada) { this.ocupada = ocupada; }
 }

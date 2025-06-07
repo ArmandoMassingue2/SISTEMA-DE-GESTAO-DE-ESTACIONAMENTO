@@ -1,7 +1,7 @@
 package main.java.com.jm_estacionamento.service;
 
-import com.jm.estacionamento.model.Carro;
-import com.jm.estacionamento.repository.CarroRepository;
+import com.jm_estacionamento.model.Carro;
+import com.jm_estacionamento.repository.CarroRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @Service
 public class VagaService {
+
     private final VagaRepository repository;
 
     public VagaService(VagaRepository repository) {

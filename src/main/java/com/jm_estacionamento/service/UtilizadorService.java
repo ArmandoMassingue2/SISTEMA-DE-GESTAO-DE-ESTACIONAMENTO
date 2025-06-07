@@ -27,7 +27,7 @@ public class UtilizadorService {
     }
 
     public Utilizador atualizar(Long id, Utilizador utilizador) {
-        return utilizadorRepository.findById(id).map( existente -> {
+        return utilizadorRepository.findById(id).map(existente -> {
             existente.setNome(utilizador.getNome());
             existente.setEmail(utilizador.getEmail());
             existente.setPassword(utilizador.getPassword());
@@ -36,7 +36,7 @@ public class UtilizadorService {
     }
 
     public boolean remover(Long id) {
-        return utilizadorRepository.findById(id).map( existente -> {
+        return utilizadorRepository.findById(id).map(existente -> {
             utilizadorRepository.delete(existente);
             return true;
         }).orElse(false);

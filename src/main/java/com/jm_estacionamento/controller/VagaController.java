@@ -1,7 +1,7 @@
 package com.estacionamento.controller;
 
-import com.estacionamento.model.Vaga;
-import com.estacionamento.service.VagaService;
+import com.jm_estacionamento.model.Vaga;
+import com.jm_estacionamento.service.VagaService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
