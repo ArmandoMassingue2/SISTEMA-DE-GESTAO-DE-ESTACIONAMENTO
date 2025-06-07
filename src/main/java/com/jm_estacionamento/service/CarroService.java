@@ -1,4 +1,4 @@
-package com.jm.estacionamento.service;
+package main.java.com.jm_estacionamento.service;
 
 import com.jm.estacionamento.model.Carro;
 import com.jm.estacionamento.repository.CarroRepository;

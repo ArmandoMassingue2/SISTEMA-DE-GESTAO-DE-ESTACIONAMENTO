@@ -1,4 +1,4 @@
-package com.jm_estacionamento.service;
+package com.estacionamento.service;
 
 import com.estacionamento.model.Vaga;
 import com.estacionamento.repository.VagaRepository;

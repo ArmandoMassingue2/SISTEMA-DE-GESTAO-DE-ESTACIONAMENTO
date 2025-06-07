@@ -1,4 +1,4 @@
-package com.jm_estacionamento.controller;
+package com.estacionamento.controller;
 
 import com.estacionamento.model.Vaga;
 import com.estacionamento.service.VagaService;

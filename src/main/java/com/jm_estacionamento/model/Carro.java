@@ -1,4 +1,4 @@
-package com.jm_estacionamento.model;
+package main.java.com.jm_estacionamento.model;
 
 import jakarta.persistence.*;
 

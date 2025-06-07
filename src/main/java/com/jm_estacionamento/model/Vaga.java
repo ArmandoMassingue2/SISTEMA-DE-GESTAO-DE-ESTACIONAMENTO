@@ -1,4 +1,4 @@
-package com.jm_estacionamento.model;
+package com.estacionamento.model;
 
 import jakarta.persistence.*;
 import lombok.*;
